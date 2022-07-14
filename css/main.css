@@ -71,10 +71,13 @@
   margin-top: 8px;
 }
 
-/* Style the active class (and buttons on mouse-over) */
-.active, .btn:hover {
-  background-color: #666;
-  color: white;
+.btnOn {
+ border: none;
+ outline: none;
+ padding: 0px 18px;
+ background-color: #009B14;
+ cursor: pointer;
+ margin-top: 8px;
 }
 
 (HERE IS THE CODE FOR FADING data-aos="fade-up")
@@ -138,7 +141,7 @@ a:hover {
   color: #ffffff
 }
 a:focus {
-  color: #39b54a;
+  color: #ffffff;
 }
 
 
@@ -805,22 +808,6 @@ input[type="button"] {
   transition: all 0.3s ease-in-out;
   background-color: #c5c5c5;
   border: .3rem solid #c5c5c5;
-}
-
-.button:hover,
-button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
-.button:focus,
-button:focus,
-input[type="submit"]:focus,
-input[type="reset"]:focus,
-input[type="button"]:focus {
-  background-color: #b8b8b8;
-  border-color: #b8b8b8;
-  color: #000000;
-  outline: 0;
 }
 
 .button.button-primary,
