@@ -47,7 +47,7 @@
  .TheFooterImage {
    display: block;
    margin: 0 0 5.4rem 0;
-   margin-left: auto;
+   margin-left: 0;
    margin-right: auto;
    width: 50%;
    padding: 0;
@@ -2371,7 +2371,7 @@ footer ul a:visited {
     margin-right: auto;
   }
   .footer-info {
-    text-align: center;
+    text-align: right;
   }
   #go-top {
     bottom: 0;
