@@ -38,6 +38,22 @@
  *
  * ------------------------------------------------------------------- */
 
+ div.a {
+   text-align: center;
+ }
+
+ div.b {
+   text-align: left;
+ }
+
+ div.c {
+   text-align: right;
+ }
+
+ div.d {
+   text-align: justify;
+ }
+
  .TheHeaderImage {
    position: absolute;
    left: 20px;
@@ -46,9 +62,9 @@
 
  .TheFooterImage {
    display: block;
-   margin: 0 0 5.4rem 0;
-   margin-left: 0;
-   margin-right: auto;
+   margin: 0 0 3rem 0;
+   margin-left: 25%;
+   margin-right: 25%;
    width: 50%;
    padding: 0;
    outline: 0;
@@ -159,7 +175,7 @@ h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 }
 
 h3, .h03, h4, .h04 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 3.0rem;
 }
 h5, .h05, h6, .h06 {
   margin-bottom: 1.2rem;
@@ -447,7 +463,7 @@ img.pull-right {
 }
 
 img.pull-left {
-  margin: 1.5rem 3rem 0 0;
+  margin: 3rem 3rem 3.5rem 0;
 }
 
 
@@ -2371,7 +2387,7 @@ footer ul a:visited {
     margin-right: auto;
   }
   .footer-info {
-    text-align: right;
+    text-align: center;
   }
   #go-top {
     bottom: 0;
