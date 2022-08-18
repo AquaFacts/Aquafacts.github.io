@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 DESCRIPTION:
-Welcome! I am King Andrew Donato. The Creator of AquaFacts.com. AquaFacts is a Philippine Based
+Welcome! I am King Andrew Donato. The Creator of AquaFactsPH.com. AquaFactsPH is a Philippine Based
 Website focused on delivering Daily Aquascaping and Aquarium Articles and to help with Aquascapers
 Find Trustful resources for starting their first tanks and to learn something new!
 
@@ -9,9 +9,10 @@ https://shp.ee/cur2rzp
 ---------------------------------------------------------------------------------------------------
 HOW TO GET YOUR SHOP FEATURED ON OUR SHOP TAB!
 
-Send an Email to our Email address WashiAquatics@gmail.com or AquaFacts@gmail.com using the
+Send an Email to our Email address Yunosaquatics@Gmail.com using the
 template provided below with the Subject "Shop_Submit". Please just put "N/A" if Non Applicable. 
 
+///////////////////////////////////////////////////////////////////////////////////////////////////
 SHOP NAME:
 {Insert Shop Name}
 
@@ -42,33 +43,27 @@ Facebook Page Size. You may also attach an image of shop or tanks if N/A. Image 
 down or resized to fit by us.}
 
 PROFILE:
-{Attach Image of Profile of atleast 720x720px here. Name the File of as "Profile". You may also 
+{Attach Image of Profile of atleast 240x240px here. 720p and Higher is Better. Name the File of as "Profile". You may also 
 attach an image of shop or tanks if N/A. Image may be cropped down or resized to fit by us.}
 
 DO YOU CONSENT FOR THE INFO PROVIDED TO BE USED IN AQUAFACTS MEDIA AND WEBSITE FOR PROMOTIONAL
-IMAGES, SCREENSHOTS SHARED,
+IMAGES, SHARED SCREENSHOTS, ?
+{Yes/No}
+
+PROOF:
+{Temporarily Put "AQFPH Verification" in any Official Page Description. 
+Insert "Done" and include the Social Media/Shop Page you have put it in.
+After we have verified by sending an Email Back, you may remove the "AQFPH-ZVerification"}
+///////////////////////////////////////////////////////////////////////////////////////////////////
 ---------------------------------------------------------------------------------------------------
 Q&A:
 
 Q:
 How can I apply to start writing articles or to submit ideas to AquaFacts?
 A:
-Simply send a Direct message to either @Aquafacts on Facebook, or Kingandrew Donato
-
-Q:
-How was AquaFacts made?
-A:
-AquaFacts.com (Originally Planned to be named "Washi Aquatics") was thought of as an idea around
-the second half of 2021. Our website is ran with Html, Css, and Javascript.
+Simply send a Direct message to either @Yunosaquatics on Facebook, or Kingandrew Donato
 
 Q:
 What are the Official Domains that are currently active that leads to Aquafacts?
 A:
-Aquafacts.com Aquafacts.site WashiAquatics.shop Yunosaquatics.shop
-
-Q:
-From the originally Planned name "Washi Aquatics" and the current Shopee name "Yuno's Aquatics",
-What was the motive for the name?
-A:
-Washi Aquatics is a a name after the 2nd Cockatiel that I own "Washi". Yuno's Aquatics is a
-tribute to my first ever Cockatiel that is sadly now long lost "Yuno".
+TBA
