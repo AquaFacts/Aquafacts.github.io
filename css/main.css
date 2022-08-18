@@ -54,7 +54,6 @@ div.d {
 	text-align: justify;
 }
 
-<script>
 * {
   box-sizing: border-box;
 }
@@ -77,24 +76,20 @@ div.d {
 #myUL {
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 0px;
 }
 
 #myUL li a {
   border: 1px solid #ddd;
-  margin-top: -1px; /* Prevent double borders */
-  background-color: #f6f6f6;
+  margin-top: 2px;
+  background-color: #009B14;
   padding: 12px;
   text-decoration: none;
   font-size: 18px;
   color: black;
-  display: block
+  display: block;
+	border-radius: 25px
 }
-
-#myUL li a:hover:not(.header) {
-  background-color: #eee;
-}
-</script>
 
 .TheHeaderImage {
 	position: absolute;
