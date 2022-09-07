@@ -396,7 +396,7 @@ textarea {
 .row {
   width: 94%;
   max-width: 1170px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .row:after {
@@ -406,6 +406,25 @@ textarea {
 }
 
 .row .row {
+  width: auto;
+  max-width: none;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.rowed {
+  width: 980px;
+  max-width: 1170px;
+  margin: auto;
+}
+
+.rowed:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rowed .rowed {
   width: auto;
   max-width: none;
   margin-left: -20px;
@@ -445,7 +464,7 @@ textarea {
 }
 
 .col-five {
-  width: 41.66667%;
+  width: 49%;
 }
 
 .col-six,
