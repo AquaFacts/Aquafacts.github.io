@@ -15,11 +15,14 @@
       <meta name="description" content="">
       <meta name="author" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/faq.css">
       <link rel="stylesheet" href="css/base.css">
       <link rel="stylesheet" href="css/vendor.css">
       <link rel="stylesheet" href="css/main.css">
       <script src="js/modernizr.js"></script>
       <script src="js/pace.min.js"></script>
+      <script src="js/Own.js"></script>
+      <link rel="stylesheet" href="css/footer.css">
       <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
       <link rel="icon" href="favicon.ico" type="image/x-icon">
       <script src="https://use.fontawesome.com/392e74ef3f.js"></script>
@@ -29,10 +32,10 @@
          <img src="logo.png" alt="logo" width="208" height="31" class="TheHeaderImage">
          <nav id="header-nav-wrap">
             <ul class="header-main-nav">
-               <a href="https://aquafacts.github.io"> <button class="btn">The Home Page</button></a>
-               <a href="FAQs.html"> <button class="btnOn">Aquascape FAQs</button></a>
-               <a href="Blogs.html"> <button class="btn">Aquascape Blogs</button></a>
-               <a href="Stores.html"> <button class="btn">Aquascape Shops</button></a>
+              <a href="https://aquafacts.github.io"> <button class="btn">The Home Page</button></a>
+              <a href="Tools.html"> <button class="btn">Aquascape Tools</button></a>
+              <a href="Blogs.html"> <button class="btnOn">Aquascape Blogs</button></a>
+              <a href="Stores.html"> <button class="btn">Aquascape Shops</button></a>
             </ul>
          </nav>
          <a class="header-menu-toggle" href="#"><span>Menu</span></a>
@@ -44,40 +47,10 @@
                <div class="home-content-left">
                   <h3>AquaFactsPH | Yuno's Aquatics</h3>
                   <h1>
-                     THE FREQUENTLY <br>
-                     ASKED QUESTIONS <br>
-                     YOU MAY HAVE IN <br>
-                     AQUASCAPING!
+                     FIND AND SEARCH QUESTIONS, AND LEARN NEW INFO IN THE BLOGS PAGE!
                   </h1>
-                  <div class="buttons">
-                     <a href="https://www.youtube.com/channel/UC_-zLoTSnAMQ1gsoOuNupyA" data-lity class="button stroke">
-                     <span class="icon-play" aria-hidden="true"></span>
-                     YOUTUBE CHANNEL
-                     </a>
-                  </div>
-               </div>
-               <div class="home-image-right">
-                  <img src="images/Betta-1.png"
-                     srcset="images/Betta-1.png 1x, images/Betta-2.png 2x">
                </div>
             </div>
-         </div>
-         <ul class="home-social-list">
-            <li>
-               <a href="#"><i class="fa fa-facebook-square"></i></a>
-            </li>
-            <li>
-               <a href="#"><i class="fa fa-twitter"></i></a>
-            </li>
-            <li>
-               <a href="#"><i class="fa fa-youtube-play"></i></a>
-            </li>
-         </ul>
-         <div class="home-scrolldown">
-            <a href="#about" class="scroll-icon smoothscroll">
-            <span>Scroll Down</span>
-            <i class="icon-arrow-right" aria-hidden="true"></i>
-            </a>
          </div>
       </section>
       <section id="FAQ">
@@ -86,17 +59,12 @@
             <br>
             <br>
             <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
             <h1>Welcome to the Frequently Asked Page!</h1>
             <p class="lead">You can find Questions that are Frequently asked and possible useful information here!</p>
 
-            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Seach your Question Here! Articles from FAQ and Blogs Will Appear." title="Type in a name">
+            <input type="text" id="SearchInput" onkeyup="SearchFeature()" placeholder="Search your Question Here!" title="Type in a name">
 
-            <ul id="myUL">
+            <ul id="SearchID">
               <li><a href="articles/Example.html">Nitrogen Cycle</a></li>
               <li><a href="#">Tank Stocking</a></li>
               <li><a href="#">Filtration</a></li>
@@ -107,25 +75,6 @@
               <li><a href="#"></a></li>
               <li><a href="#"></a></li>
             </ul>
-
-              <script>
-              function myFunction() {
-                var input, filter, ul, li, a, i;
-                input = document.getElementById("myInput");
-                filter = input.value.toLowerCase();
-                ul = document.getElementById("myUL");
-                li = ul.getElementsByTagName("li");
-
-                for (i = 0; i < li.length; i++) {
-                    a = li[i].getElementsByTagName("a")[0];
-                    if (a.innerHTML.toLowerCase().includes(filter) && filter !== "") {
-                        li[i].style.display = "block";
-                    } else {
-                        li[i].style.display = "none";
-                    }
-                }
-            }
-              </script>
 
          </div>
       </div>
@@ -153,7 +102,7 @@
             <h3>Lighting</h3>
             <a href=".html"></a>
                <img width="120" height="120" class="pull-left" alt="Thumb4_Red Cherry Shrimp" src="images/Thumb4_Red Cherry Shrimp.png">
-               <p>Proper Lighting Settings, Specs, and Recommendations!</p>
+               <p>Proper Lighting Settings, Specifications, and More!</p>
                <a class="button button-primary New" href="#">Learn Now!</a>
          </div>
       </div>

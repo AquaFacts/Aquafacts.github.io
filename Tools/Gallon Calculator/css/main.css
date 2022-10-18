@@ -1,0 +1,106 @@
+
+@media (min-width:641px) {
+	.home-content-left {
+	padding: 10rem 3.8rem 4rem 5.8rem !important;
+	position: relative;
+	width: 25% !important;
+}
+}
+
+p {
+	margin: 1.5rem 0 1.5rem 0
+}
+
+input {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+input[type="Digit"] {
+	display: block;
+	height: 6rem;
+	padding: 1.5rem 2rem;
+	border: 0;
+	outline: none;
+	color: #ffffff;
+	font-family: "muli-regular", sans-serif;
+	font-size: 1.5rem;
+	line-height: 3rem;
+	max-width: 100%;
+	background: rgba(0, 0, 0, 0.1);
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	border-radius: 5px;
+	margin: auto;
+	Text-Align: center;
+}
+
+input[type="Digit"] {
+	display: block;
+	height: 6rem;
+	padding: 1.5rem 2rem;
+	border: 0;
+	outline: none;
+	color: #ffffff;
+	font-size: 1.5rem;
+	line-height: 3rem;
+	max-width: 100%;
+	background: rgba(0, 0, 0, 0.1);
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	border-radius: 25px;
+	margin: auto;
+	Text-Align: center;
+	font-family: "montserrat-regular", sans-serif;
+}
+
+input[type="Button"] {
+	display: block;
+	font-family: "montserrat-regular", sans-serif;
+	font-size: 1.5rem;
+	height: 6rem;
+	line-height: 3rem;
+	padding: 0 3rem;
+	margin: auto;
+	color: #ffffff;
+
+	text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+	white-space: nowrap;
+	border-radius: 25px;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	background-color: #c5c5c5;
+	border: .3rem solid #c5c5c5;
+}
+
+.CenterText {
+	Text-Align: center;
+	font-family: "montserrat-regular", sans-serif;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.home-content-Right {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	padding-top: 21rem;
+	z-index: 500;
+	width: 50%;
+	text-align: right;
+}
+
+.btnOn {
+	border: none;
+	outline: none;
+	padding: 0px 18px;
+	background-color: #00149B !important;
+	cursor: pointer;
+	margin-top: 8px;
+}
