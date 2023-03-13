@@ -2,26 +2,37 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
 	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="mobile.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="script.js"></script>
-	<script src="jquery-3.6.4.min.js"></script>
 </head>
 <body>
 	<header class="smallnav">
 		<div class="container">
-			<div class="logo">
-				<img src="logo.png" alt="Logo" width="309rem">
+		  <div class="logo">
+			<img class="navlogo" src="logo.png" alt="Logo" width="309rem">
+		  </div>
+		  <div class="hamburgdiv">
+			<button class="menu-icon">&#9776;</button>
+			<div class="hamburger-content">
+			  <a style="padding: 10px 20px 5px" href="">Home</a>
+			  <a style="padding: 5px;" href="blogs.html">Blog</a>
+			  <a style="padding: 5px 20px 10px" href="shops.html">Shop</a>
 			</div>
-			<nav class="navbar">
-				<ul>
-					<li><a href="">Home</a></li>
-					<li><a href="blogs.html">Blog</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
+			</div>
+		  <nav class="navbar">
+			<ul>
+			  <li><a href="">Home</a></li>
+			  <li><a href="blogs.html">Blog</a></li>
+			  <li><a href="shops.html">Shop</a></li>
+			</ul>
+		  </nav>
 		</div>
-	</header>
+	  </header>
 	<main>
 		<header class="inme">
 			<h2>Yuno's Aquatics<a href="https://shp.ee/cur2rzp" target="_blank"><img class="h2img white-svg" src="yuno.svg" width="30rem" height="auto"></a></h2>
@@ -31,11 +42,11 @@
 		<header class="inme">
 			<h2>Title</h2>
 			<p class="article-meta special">Text</p>
-			<img class="image" src="" alt="">
+			<img class="image" src="https://aquafacts.github.io/" alt="">
 		</header>
 	</main>
 	<footer>
-		<p>&copy; AquaFactsPH</p>
+		<p>© AquaFactsPH</p>
 	</footer>
 </body>
 </html>
